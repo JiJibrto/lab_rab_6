@@ -6,8 +6,8 @@ import sys
 if __name__ == '__main__':
 
     # Ввести список одной строкой.
-    A = list(map(int, input().split())
-             )
+    A = list(map(int, input().split()))
+
     # Проверить количество элементов списка.
     if len(A) != 10:
         print("Неверный размер списка", file=sys.stderr)
