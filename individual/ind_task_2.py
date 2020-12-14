@@ -36,9 +36,7 @@ if __name__ == '__main__':
     # 2 задание
     sum = 0
     i_sum = i_max + 1
-    while i_sum <= len(Lis):
-        if i_sum >= len(Lis):
-            break
+    while i_sum < len(Lis):
         sum += Lis[i_sum]
         i_sum += 1
 
